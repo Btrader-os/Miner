@@ -1,6 +1,6 @@
 import os
 
-os.system("sudo apt update")
+os.system("sudo apt update -y")
 os.system("sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y")
 os.system("git clone https://github.com/xmrig/xmrig.git")
 os.system("cd xmrig")
